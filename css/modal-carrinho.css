@@ -34,6 +34,11 @@
     letter-spacing: 0.1rem;
 }
 
+.modal header h2 {
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
 .modal header .fechar{
     background-image: url(assets/images/icone_fechar.svg);
     width: 24px;
@@ -83,7 +88,7 @@ td.td-quantidade input{
 
 td .btn-remover {
     display: block;
-    background-image: url(assets/images/icone_deletar.svg);
+    background-image: url(../assets/images/icone_deletar.svg);
     width: 24px;
     height: 24px;
     background-color: transparent;

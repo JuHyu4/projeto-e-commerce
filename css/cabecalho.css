@@ -113,12 +113,26 @@ gap: 1rem;
     .menu-hamburguer {
         display: none;
     }
+    .cabecalho ul li a {
+        gap: 1rem;
+    }
 
-@media(min-width: 1440px){
+    .cabecalho ul li a {
+        font-size: 0.85rem;
+    }
+
+@media(min-width: 1170px){
     .cabecalho{
-        max-width: 1440px;
+        max-width: 1170px;
         margin: 0 auto;
     
 }
+ .cabecalho ul li a {
+        gap: 2rem;
+    }
+
+    .cabecalho ul li a {
+        font-size: 1rem;
+    }
 }
 }

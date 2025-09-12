@@ -110,6 +110,10 @@ gap: 1rem;
         flex-direction: row;
     }
 
+    .menu-hamburguer {
+        display: none;
+    }
+
 @media(min-width: 1440px){
     .cabecalho{
         max-width: 1440px;
